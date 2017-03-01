@@ -287,6 +287,7 @@ define Device/y1
   DTS := Y1
   IMAGE_SIZE := $(ralink_default_fw_size_16M)
   DEVICE_TITLE := Lenovo Y1
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-sdhci kmod-sdhci-mt7620 kmod-usb-ledtrig-usbport
 endef
 TARGET_DEVICES += y1
 
